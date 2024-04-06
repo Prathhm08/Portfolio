@@ -1,0 +1,65 @@
+.projects {
+  padding: 2vw;
+  place-items: center center;
+}
+.projects h1 {
+  text-align: center;
+}
+.p-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 20px;
+  grid-gap: 40px;
+}
+.p-card {
+  background: white;
+  margin: 1vw 2vw;
+  border-radius: 15px;
+  border: 3px solid;
+}
+.card-img {
+  background-color: aqua;
+  height: 150px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+.car-1 {
+  background-image: url("../assets/Game.png");
+}
+.car-2 {
+  background-image: url("../assets/FootyFlare.png");
+}
+.car-3 {
+  background-image: url("../assets/Reg.png");
+}
+.car-4 {
+  background-image: url("../assets/Blog.png");
+}
+.p-card h2 {
+  padding: 0 10px;
+}
+.p-card a {
+  background-color: black;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+  text-decoration: none;
+}
+.p-card:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+.p-card a:hover {
+  background-color: white;
+  color: black;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+  text-decoration: none;
+}
