@@ -25,16 +25,19 @@
   border-radius: 15px 15px 0 0;
 }
 .car-1 {
-  background-image: url("../assets/Game.png");
+  background-image: url("../assets/Math Game.png");
 }
 .car-2 {
   background-image: url("../assets/FootyFlare.png");
 }
 .car-3 {
-  background-image: url("../assets/Reg.png");
+  background-image: url("../assets/Registration site.png");
 }
 .car-4 {
-  background-image: url("../assets/Blog.png");
+  background-image: url("../assets/Blog site.png");
+}
+.car-5 {
+  background-image: url("../assets/Dish Delight.png");
 }
 .p-card h2 {
   padding: 0 10px;
