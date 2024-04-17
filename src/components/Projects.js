@@ -20,8 +20,14 @@ const projectData = [
   {
     id: 4,
     name: "Blog Site",
-    desc: "            Embark on a captivating journey of exploration and expression through our vibrant blog platform, where every post tells a unique story and fosters community engagement.",
+    desc: "Embark on a captivating journey of exploration and expression through our vibrant blog platform, where every post tells a unique story and fosters community engagement.",
     link: "https://blog-uxgj.onrender.com",
+  },
+  {
+    id: 5,
+    name: "Dish Delight",
+    desc: "Dish Delight is a React and Node.js web app offering a variety of Indian dishes. Users can explore, customize orders, and enjoy doorstep delivery with seamless checkout.",
+    link: "https://dishdelightdd.netlify.app",
   },
 ];
 
