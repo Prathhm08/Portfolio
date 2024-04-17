@@ -9,9 +9,6 @@ export default function Projects() {
           <div key={index} className="p-card">
             <div
               className={`card-img car-${index + 1}`}
-              style={{
-                backgroundImage: `url("/src/assets/${project.name}.png")`,
-              }}
             ></div>
             <h2>{project.name}</h2>
             <p>{project.desc}</p>
