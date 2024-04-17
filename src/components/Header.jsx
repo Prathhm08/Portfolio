@@ -4,6 +4,7 @@ import abtimage from "../assets/abt_image.jpg";
 import gsap from "gsap";
 import SplitTextJS from "split-text-js";
 import smoothScroll from "./scroll";
+import { useEffect } from "react";
 export default function Header() {
   function myFunction() {
     var x = document.getElementById("myTopnav");
@@ -14,9 +15,10 @@ export default function Header() {
     }
   }
 
-  window.addEventListener("DOMContentLoaded", () => {
+  useEffect(() => {
     const titles = gsap.utils.toArray(".text-wrapper h2");
     const tl = gsap.timeline({ repeat: -1 });
+
     titles.forEach((title) => {
       const splitTitle = new SplitTextJS(title);
       tl.from(
@@ -38,7 +40,10 @@ export default function Header() {
         "<1"
       );
     });
-  });
+    return () => {
+      tl.kill();
+    };
+  }, []);
 
   return (
     <>
