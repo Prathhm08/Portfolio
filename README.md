@@ -1,6 +1,6 @@
 # Portfolio
 
-Welcome to my portfolio! This project showcases my skills and projects I've worked on. It was built from scratch using HTML, CSS, JavaScript, React, GSAP, and other technologies. You can access the portfolio either by running it locally using npm or by visiting [Portfolio](https://getmyportfolio.netlify.app/).
+Welcome to my portfolio! This project showcases my skills and projects I've worked on. It was built from scratch using HTML, CSS, JavaScript, React, GSAP, and other technologies. You can access the portfolio either by running it locally using npm or by visiting [Portfolio](https://prathamportfolio.vercel.app/).
 
 ## Installation
 
