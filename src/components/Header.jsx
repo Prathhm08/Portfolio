@@ -51,7 +51,7 @@ export default function Header() {
         <div className="topnav" id="myTopnav">
           <a
             className="active"
-            href="https://drive.google.com/file/d/1dLiPY5JEwITAI8VkQfwmnAPW5TCT4kfy/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1dQ-dz0woyx90LXH1cTzhb1lcGmYcLwGl/view?usp=drivesdk"
             target="_blank"
           >
             Resume
