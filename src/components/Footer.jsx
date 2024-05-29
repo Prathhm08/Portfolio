@@ -3,27 +3,6 @@ export default function Footer() {
   return (
     <footer>
       <div className="container" id="contact">
-        {/* <div className="footer-col">
-          <h2>Logo</h2>
-          <p className="footer-para">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt
-            labore quod ipsa eos magnam? Architecto quas magnam mollitia nemo
-          </p>
-        </div> */}
-        {/* <div className="footer-col">
-          <h3 className="text-office">
-            Office
-            <div className="underline">
-              <span></span>
-            </div>
-          </h3>
-          <p>Street No 5</p>
-          <p>Gulistan Colony</p>
-          <p></p>
-
-          <p className="email">info.finegap@gmail.com</p>
-          <p className="phone">+92 304 110 0028</p>
-        </div> */}
         <div className="footer-col">
           <h3>
             Menu
