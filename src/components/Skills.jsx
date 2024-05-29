@@ -49,7 +49,7 @@ export default function Skills() {
           </span>
           <div className="skill-bar">
             <span className="skill-per react">
-              <span className="tooltip">35%</span>
+              <span className="tooltip">75%</span>
             </span>
           </div>
         </div>

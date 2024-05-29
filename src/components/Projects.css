@@ -12,32 +12,38 @@
   grid-gap: 40px;
 }
 .p-card {
+  display: flex;
+  flex-direction: column;
   background: white;
   margin: 1vw 2vw;
   border-radius: 15px;
   border: 3px solid;
 }
+.spacer {
+  flex-grow: 1;
+}
 .card-img {
   background-color: aqua;
-  height: 150px;
+  height: 165px;
   margin-bottom: 15px;
   background-size: cover;
   border-radius: 15px 15px 0 0;
 }
+
 .car-1 {
-  background-image: url("../assets/Math Game.png");
-}
-.car-2 {
   background-image: url("../assets/FootyFlare.png");
 }
-.car-3 {
+.car-2 {
   background-image: url("../assets/Registration site.png");
 }
-.car-4 {
+.car-3 {
   background-image: url("../assets/Blog site.png");
 }
-.car-5 {
+.car-4 {
   background-image: url("../assets/Dish Delight.png");
+}
+.car-5 {
+  background-image: url("../assets/IMDb clone.png");
 }
 .p-card h2 {
   padding: 0 10px;

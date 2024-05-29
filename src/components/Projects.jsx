@@ -7,11 +7,10 @@ export default function Projects() {
       <section className="p-container">
         {projectData.map((project, index) => (
           <div key={index} className="p-card">
-            <div
-              className={`card-img car-${index + 1}`}
-            ></div>
+            <div className={`card-img car-${index + 1}`}></div>
             <h2>{project.name}</h2>
             <p>{project.desc}</p>
+            <div className="spacer"></div>
             <a href={project.link}>Visit</a>
           </div>
         ))}

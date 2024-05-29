@@ -72,7 +72,7 @@
   animation-delay: 0.25s;
 }
 .skill-per.react {
-  width: 35%;
+  width: 75%;
   animation-delay: 0.3s;
 }
 @keyframes progress {
